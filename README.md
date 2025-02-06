@@ -3,6 +3,7 @@
 ## Description
 
 This repository contains Python-based scrapers for Noon.com search results and product pages. These scrapers leverage the [Crawlbase Crawling API](https://crawlbase.com/crawling-api-avoid-captchas-blocks) to handle JavaScript rendering, CAPTCHA challenges, and anti-bot protections. The extracted data is processed using BeautifulSoup for HTML parsing and Pandas for structured storage.
+
 ➡ Read the full blog [here](https://crawlbase.com/blog/how-to-scrape-noon-data/) to learn more.
 
 ## Scrapers Overview
@@ -44,9 +45,9 @@ Next, install the required dependencies:
 pip install crawlbase beautifulsoup4 pandas
 ```
 
-**Crawlbase** – Handles JavaScript rendering and bypasses bot protections.
-**BeautifulSoup** – Parses and extracts structured data from HTML.
-**Pandas** – Formats and stores extracted data, enabling CSV exports.
+- **Crawlbase** – Handles JavaScript rendering and bypasses bot protections.
+- **BeautifulSoup** – Parses and extracts structured data from HTML.
+- **Pandas** – Formats and stores extracted data, enabling CSV exports.
 
 ## Running the Scrapers
 
